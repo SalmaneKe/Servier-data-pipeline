@@ -1,0 +1,15 @@
+[MASTER]
+# Specify a configuration file.
+init-hook='import sys; sys.path.append("src")'
+
+[MESSAGES CONTROL]
+# Disable specific warnings by their message IDs
+disable=missing-module-docstring,
+        missing-class-docstring,
+        logging-fstring-interpolation,
+        broad-exception-caught,
+        line-too-long
+
+[FORMAT]
+# Optionally set the maximum line length
+max-line-length=120

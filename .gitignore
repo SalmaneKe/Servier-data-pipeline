@@ -1,0 +1,26 @@
+# Python related files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environment variables
+#.env
+
+# Poetry files
+poetry.lock
+.venv/
+
+# Docker related files
+*.log
+docker-compose.override.yml
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Justfile (if dynamically generated)
+# Uncomment the line below if you dynamically generate Justfiles
+#Justfile
+
+dist/
